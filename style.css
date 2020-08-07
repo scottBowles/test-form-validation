@@ -2,7 +2,18 @@ form {
   margin: 40px;
 }
 
-form > input {
+form > * {
   display: block;
+}
+
+form span {
+  color: #666;
+}
+
+form > div {
   margin-bottom: 30px;
+}
+
+.invalid {
+  border: 1px solid red;
 }
